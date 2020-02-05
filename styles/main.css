@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 62.5%;
   color: #000000;
 }
@@ -109,7 +109,7 @@ a.button_body:hover{
 /* en responsive : une brosse avec le sourire bleu */
 @keyframes fade{from {opacity: 0;}to{opacity: 80%;}}
 
-#fade{
+.fade{
   animation: fade 3s;
   animation-fill-mode: forwards;
 }
