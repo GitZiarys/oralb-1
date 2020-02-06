@@ -110,8 +110,7 @@ a.button_body:hover{
 
 .background_gradient{
   height: 6267px;
-  background-image: linear-gradient(#0a2b6e, #060f2c,#340c52);
-  background-repeat: no-repeat;
+  background: linear-gradient(#0a2b6e, #060f2c,#340c52);
 }
 
 #mySidenav a{
