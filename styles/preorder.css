@@ -45,17 +45,16 @@ a{
 
 h1{
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: normal;
 }
 
 .button{
-  border:1px solid #FFFFFF;
-	background-color: #FFFFFF;
+	background-color:#FFFFFF;
   color: #0057b8;
-  font-size: 1.5rem;
-	border-radius: 2em;
-  padding:0.1em 0.4em;
+  font-size: 0.9rem;
+	border-radius: 1rem;
+  padding:0.1rem 0.4rem;
 }
 
 .button_body{
@@ -67,9 +66,9 @@ h1{
 }
 
 a.button:hover{
- background-color:#0057b8;
- color: #FFFFFF;
- transition-duration: 0.4s;
+ background-color:#CCCCCC;
+ color: #0057b8;
+ transition-duration: 0.7s;
  text-decoration: none;
 }
 
@@ -133,7 +132,7 @@ p a{
 form h2{
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0 auto;
 }
 
@@ -168,21 +167,20 @@ label{
   margin-left: 6rem;
 }
 
-
-#email{
-  width: 50%;
+#fname{
+  width: 25%;
   margin: 0 auto;
-  padding: 0.8rem 1.3rem;
-  margin: 0.5rem 0 ;
+  padding: 0.5rem 1.4rem;
+  margin: 0.5rem 0.4rem ;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
 
-#fname{
-  width: 25%;
+#email{
+  width: 50%;
   margin: 0 auto;
-  padding: 0.8rem 1.4rem;
-  margin: 0.5rem 0.4rem ;
+  padding: 0.5rem 1.3rem;
+  margin: 0.5rem 0 ;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
@@ -223,6 +221,10 @@ input[type=submit]:hover{
 
   .required_name , .required_email{
     margin-left: 2rem;
+  }
+
+  #fname , #email{
+    padding: 0.1rem 1rem;
   }
 
   input[type=submit]{

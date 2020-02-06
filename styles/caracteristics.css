@@ -106,7 +106,7 @@ a.button_body:hover{
 
 .background_gradient{
   height: 6267px;
-  background-image: linear-gradient(#340c52,#0a2b6e, #060f2c,#340c52);
+  background-image: linear-gradient(#0a2b6e, #060f2c,#340c52);
   background-repeat: no-repeat;
 }
 
@@ -123,7 +123,7 @@ a.button_body:hover{
 }
 #sensors{
   top: 20px;
-  left: -60px;
+  left: -105px;     /*+50px*/
   background-color: #FFFFFF;
 }
 #sensors:hover{
@@ -132,7 +132,7 @@ a.button_body:hover{
 }
 #mods{
   top: 80px;
-  left: -43px;
+  left: -88px;
   background-color: #FFFFFF;
 }
 #mods:hover{
@@ -141,7 +141,7 @@ a.button_body:hover{
 }
 #display{
   top: 140px;
-  left: -145px;
+  left: -202px;
   background-color: #FFFFFF;
 }
 #display:hover{
@@ -150,7 +150,7 @@ a.button_body:hover{
 }
 #connected{
   top: 200px;
-  left: -140px;
+  left: -210px;
   background-color: #FFFFFF;
 }
 #connected:hover{
@@ -159,7 +159,7 @@ a.button_body:hover{
 }
 #charging{
   top: 260px;
-  left: -133px;
+  left: -200px;
   background-color: #FFFFFF;
 }
 #charging:hover{
@@ -168,7 +168,7 @@ a.button_body:hover{
 }
 #transport{
   top: 320px;
-  left: -95px;
+  left: -147px;
   background-color: #FFFFFF;
 }
 #transport:hover{
@@ -177,7 +177,7 @@ a.button_body:hover{
 }
 #precom{
   top: 380px;
-  left: -185px;
+  left: -260px;
   background-color: black;
 }
 #precom:hover{

@@ -7,6 +7,7 @@ body {
   font-family: "lato", sans-serif;
   font-size: 62.5%;
   color: #000000;
+  background-color: #F2F2F2;
 }
 
 a{
@@ -41,37 +42,38 @@ a{
 
 h1{
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: normal;
 }
 
 .button{
-  border:1px solid #FFFFFF;
 	background-color:#FFFFFF;
   color: #0057b8;
-  font-size: 1.5rem;
-	border-radius: 2em;
-  padding:0.1em 0.4em;
+  font-size: 0.9rem;
+	border-radius: 1rem;
+  padding:0.1rem 0.4rem;
 }
 
 .button_body{
 	background-color:#0057b8;
   color: #FFFFFF;
   font-size: 1.5rem;
-	border-radius: 2em;
-  padding:0.1em 0.4em;
+	border-radius: 2rem;
+  padding:0.1rem 0.4rem;
 }
 
 a.button:hover{
- background-color:#0057b8;
- color: #FFFFFF;
- transition-duration: 0.4s;
+ background-color:#CCCCCC;
+ color: #0057b8;
+ transition-duration: 0.7s;
  text-decoration: none;
 }
 
 a.button_body:hover{
  background-color:#FFFFFF;
  color: #0057b8;
+ border-color: #0057b8;
+ border-radius: 1rem;
  transition-duration: 0.4s;
  text-decoration: none;
 }
@@ -114,20 +116,48 @@ a.button_body:hover{
   animation-fill-mode: forwards;
 }
 
+.brushes_panel{
+  position: absolute;
+}
+
+.blue_brush{
+  position: relative;
+}
+
+.article{
+  position: absolute;
+  width: 540px;
+  height: 200px;
+  margin-left: 350px;
+  font-size: 1.2rem;
+  padding-top: 200px;
+}
+
+.article_aside{
+  margin-left: 1400px;
+  font-size: 1.5rem;
+}
+
+.line_top{
+  border: 0.1rem solid #000000;
+  width: 100px;
+  margin-right: 400px;
+}
+
+.line_bottom{
+  border: 0.1rem solid #000000;
+  width: 100px;
+  margin-left: 400px;
+}
+
+.nav_aside{
+  margin-left:1400px;
+  padding: 200px 0 0 0;
+}
+
 /*
   MAIN INDEX
 */
-
-
-
-/*
-  MAIN CARACTERISTICS
-*/
-
-/*
-  MAIN CARACTERISTICS
-*/
-
 
 /*
   FOOTER
