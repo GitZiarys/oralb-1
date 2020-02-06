@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 62.5%;
   color: #000000;
 }
@@ -41,7 +41,7 @@ a{
 
 h1{
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: normal;
 }
 
@@ -49,29 +49,33 @@ h1{
   border:1px solid #FFFFFF;
 	background-color:#FFFFFF;
   color: #0057b8;
-  font-size: 1.5rem;
-	border-radius: 2em;
-  padding:0.1em 0.4em;
+  font-size: 0.9rem;
+	border-radius: 1rem;
+  padding:0.1rem 0.4rem;
 }
 
 .button_body{
 	background-color:#0057b8;
   color: #FFFFFF;
   font-size: 1.5rem;
-	border-radius: 2em;
-  padding:0.1em 0.4em;
+	border-radius: 2rem;
+  padding:0.1rem 0.4rem;
 }
 
 a.button:hover{
- background-color:#0057b8;
- color: #FFFFFF;
- transition-duration: 0.4s;
+ background-color:#ECECEC;
+ color: #0057b8;
+ transition-duration: 0.7s;
+ text-decoration: none;
 }
 
 a.button_body:hover{
  background-color:#FFFFFF;
  color: #0057b8;
+ border-color: #0057b8;
+ border-radius: 1rem;
  transition-duration: 0.4s;
+ text-decoration: none;
 }
 
 
