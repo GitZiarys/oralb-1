@@ -1,3 +1,5 @@
+@keyframes fade{from {opacity: 0;}to{opacity: 80%;}}
+
 /*
  DEFAULT STYLES
 */
@@ -109,7 +111,6 @@ a.button_body:hover{
 */
 
 /* en responsive : une brosse avec le sourire bleu */
-@keyframes fade{from {opacity: 0;}to{opacity: 80%;}}
 
 .fade{
   animation: fade 3s;
