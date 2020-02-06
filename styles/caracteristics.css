@@ -1,3 +1,5 @@
+@keyframes fadein{from{opacity: 0%;}to{opacity:0%}to{opacity: 100%}}
+@keyframes fadeout{from{opacity:100%;}to{opacity: 0%;}}
 /*
  DEFAULT STYLES
 */
@@ -246,6 +248,12 @@ a.button_body:hover{
   width: 453px;
   height: 374px;
   margin-left: 200px
+}
+#fadein{
+  animation: fadein 4s infinite;
+}
+#fadeout{
+  animation: fadeout 4s infinite;
 }
 
 .sensor_section .explanation{
