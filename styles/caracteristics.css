@@ -124,68 +124,98 @@ a.button_body:hover{
   border-radius: 0 50px 50px 0;
   margin-top: 10%;
 }
+
 #sensors{
   top: 20px;
   left: -105px;     /*+50px*/
   background-color: #FFFFFF;
 }
+
 #sensors:hover{
   left: 0;
   color: black;
 }
+
 #mods{
   top: 80px;
   left: -88px;
   background-color: #FFFFFF;
 }
+
 #mods:hover{
   left:0;
   color: black;
 }
+
 #display{
   top: 140px;
   left: -202px;
   background-color: #FFFFFF;
 }
+
 #display:hover{
   left:0;
   color:black;
 }
+
 #connected{
   top: 200px;
   left: -210px;
   background-color: #FFFFFF;
 }
+
 #connected:hover{
   left:0;
   color:black;
 }
+
 #charging{
   top: 260px;
   left: -200px;
   background-color: #FFFFFF;
 }
+
 #charging:hover{
   left:0;
   color:black;
 }
+
 #transport{
   top: 320px;
   left: -147px;
   background-color: #FFFFFF;
 }
+
 #transport:hover{
   left: 0;
   color: black;
 }
+
 #precom{
   top: 380px;
   left: -260px;
   background-color: black;
 }
+
 #precom:hover{
   left:0;
   color:white;
+}
+
+
+.main_titel a{
+  max-width: 430px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 50px;
+  font-size: 3.2rem;
+  line-height: 6rem;
+}
+
+.main_titel{
+  padding-top: 50px;
 }
 
 /*
@@ -218,9 +248,11 @@ a ~ span{
   font-size: 0.9rem;
   color: #818080;
 }
+
 a:hover{
   text-decoration: underline;
 }
+
 @media only screen and (orientation: portrait) and (max-width: 700px){
   .bottomBar .container{
     display: flex;
