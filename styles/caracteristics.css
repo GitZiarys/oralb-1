@@ -216,15 +216,12 @@ a.button_body:hover{
   border-radius: 50px;
   font-size: 3.2rem;
   line-height: 6rem;
-  text-decoration: none;
 }
 
 .main_titel{
   padding-top: 50px;
 }
-.main_titel:hover{
-  text-decoration: none;
-}
+
 .sensor_title a{
   max-width: 150px;
   margin: 0 auto;
@@ -252,8 +249,9 @@ a.button_body:hover{
   position: absolute;
   width: 453px;
   height: 374px;
-  margin-left: 200px
+  margin-left: 300px
 }
+
 #fadein{
   animation: fadein 4s infinite;
 }
@@ -266,26 +264,23 @@ a.button_body:hover{
   height: 100px;
   font-size: 1.6rem;
   color: #FFFFFF;
-  margin-left: 600px;
+  margin-left: 850px;
   padding-top: 75px;
 }
 
-.sensor_description{
-  padding-left: 50px;
-}
 
 .green_element{
   width: inherit;
   font-size: 1.6rem;
   color: #14FF00;
-  margin-left: 650px;
+  margin-left: 850px;
 }
 
 .red_element{
   width: inherit;
   font-size: 1.6rem;
   color: #FF0000;
-  margin-left: 650px;
+  margin-left: 850px;
 }
 
 .mods_title a{
@@ -294,11 +289,10 @@ a.button_body:hover{
   display: flex;
   justify-content: center;
   color: #FFFFFF;
-  background: #027AFF;
+  background: #026FE8;
   border-radius: 500px;
   font-size: 1.5rem;
   line-height: 3rem;
-  text-decoration: none;
 }
 
 .mods_section{
@@ -319,7 +313,128 @@ a.button_body:hover{
   margin: 0 auto;
   font-size: 1.6rem;
   padding-top: 75px;
+  padding-bottom: 200px;
 }
+
+.interactive_display_title a{
+  max-width: 300px;
+  margin-left:550px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #0057B8;
+  border-radius: 500px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.interactive_display_section{
+  max-width: 100%;
+  margin-left: 260px;
+  height: 480px;
+}
+
+.interactive_display_section .brush_model_front{
+  position: absolute;
+  width: 179px;
+  height: 358px;
+  border-radius: 400px;
+}
+
+.interactive_display_section .brush_model_sided{
+  position:relative;
+  width: 276px;
+  height: 358px;
+  border-radius: 99px 148px 50px 200px;
+}
+
+.interactive_display_section .brush_model_sided_2{
+  width: 276px;
+  height: 358px;
+  border-radius: 99px 148px 50px 200px;
+}
+
+.interactive_display_section img{
+  position: relative;
+  padding-top: 50px;
+  margin-left: 180px;
+  width: 170px;
+  height: 0px;
+}
+
+.charging_gif{
+  position: absolute;
+}
+
+.morning_gif{
+  transform:translateX(-20rem);
+}
+
+.brush_model_sided{
+  transform: translateX(3rem);
+}
+
+.brush_model_sided_2{
+  transform: translateX(-20rem);
+}
+
+.timer_gif{
+  position: absolute;
+  left: 930px;
+  top: -400px;
+}
+
+.interactive_display_section .interactive_display_description{
+  color: #FFFFFF;
+  width: 1095px;
+  margin-left: 200px;
+  font-size: 1.6rem;
+}
+
+.connected_brush_titel a{
+  max-width: 300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #004797;
+  border-radius: 500px;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin-top: 300px;
+}
+
+.connected_brush_section{
+  max-width: 100%;
+  }
+
+.connected_brush_section img{
+  padding-top: 50px;
+  margin-left: 330px;
+}
+
+.bluetooth_mode{
+  margin-bottom: 170px;
+  border-radius: 200px;
+}
+
+.network{
+  margin-bottom: 210px;
+}
+
+.phone_oralb{
+  margin-bottom: 20px;
+}
+
+.connected_brush_section .connected_brush_descritpion{
+  width: 1100px;
+  height: 50px;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  margin-left: 400px;
+  padding-top: 30px;
+}
+
 /*
   MAIN CARACTERISTICS
 */
